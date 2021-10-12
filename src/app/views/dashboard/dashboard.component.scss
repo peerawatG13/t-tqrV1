@@ -1,0 +1,60 @@
+.card{
+  
+}
+.crad-header{
+  .text-head{
+  text-align:center;
+  font-size:xx-large;
+  font-family:unset;
+  font-style: normal;
+  font-weight: bold;
+  text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+  padding: 30px;
+  background: linear-gradient(180deg, #B53FFD 0%, rgba(0, 0, 0, 0) 100%);
+  border-radius: 5px;
+ }
+}
+.card-background-store{
+    position: relative;
+    text-align: center;
+    padding-top: 10px;
+    
+  .img-store{
+    height: 150px;
+    max-width: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position:bottom;
+    border-radius: 5px
+    // opacity: 0.4;
+    
+  }
+  .card-title {
+    position: absolute;
+    top: 36%;
+    font-size: 2.5em;
+    width: 100%;
+    font-weight: bold;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    .button-store{
+      button{
+        background: linear-gradient(180deg, #9B34EC 0%, #8C64AB 75%, #977BAD 100%, #977BAD 100%); 
+      }
+      i{
+        color: #2c2c2c;
+      }
+    }
+    .button-student{
+      button{
+        background: linear-gradient(180deg, #9B34EC 0%, #8C64AB 75%, #977BAD 100%, #977BAD 100%);
+      }
+      i{
+        color: #2c2c2c;
+      }
+    }
+
+  }
+  
+}
+
+  
